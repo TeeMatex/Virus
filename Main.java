@@ -42,6 +42,7 @@ public class Main {
             return chaine;
         } catch (IOException e) {
             System.out.println(" impossible de travailler" + e);
+            System.out.println("CC");
             return null;
         }
 
